@@ -1,4 +1,4 @@
-# arch-airPi-Repo
+# arch-airpi-Repo
 
 This repository contains all Arch Linux packages that i created for using the Raspberry Pi as an HD-Digital-FPV-Cam.
 
@@ -8,10 +8,10 @@ To get access to the packages in this repository, you have to tell pacman where 
 
 Open the file in your editor of choice and append the following lines:
 ```
-[airPi-Repo]
-Server = https://github.com/senselessDev/arch-airPi-Repo/raw/master/
+[airpi-Repo]
+Server = https://github.com/senselessDev/arch-airpi-Repo/raw/master/
 ```
 
-Now you have to download a fresh copy of the package list by invoking  `pacman -Sy`.
+Now you have to download a fresh copy of the package list by invoking `pacman -Sy`.
 
-After doing that, you should be able to install any package of this repository. For example you can install the basic [airPi-Package](https://github.com/senselessDev/arch-airPi-Package) with `pacman -S airPi`.
+After doing that, you should be able to install any package of this repository. For example you can install the basic [airpi-Package](https://github.com/senselessDev/arch-airpi-Package) with `pacman -S airpi`.
